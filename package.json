@@ -4,7 +4,7 @@
   "description": "Counting Bears.",
   "main": "index.js",
   "scripts": {
-    "test": "standard && istanbul cover mocha"
+    "test": "standard && istanbul cover _mocha -- --recursive test"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,14 @@
   "dependencies": {
     "likes": "github:lipp/likes",
     "lowdb": "^0.13.1",
-    "node-jet": "github:lipp/node-jet"
+    "node-jet": "github:lipp/node-jet",
+    "uuid": "^2.0.2"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-stub-promise": "^3.0.1",
     "standard": "^8.0.0"
   }
 }
