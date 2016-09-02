@@ -1,0 +1,29 @@
+{
+  "name": "numbears-service",
+  "version": "0.0.0",
+  "description": "Counting Bears.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && istanbul cover mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipp/numbears-service.git"
+  },
+  "author": "Gerhard Preuss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipp/numbears-service/issues"
+  },
+  "homepage": "https://github.com/lipp/numbears-service#readme",
+  "dependencies": {
+    "likes": "github:lipp/likes",
+    "lowdb": "^0.13.1",
+    "node-jet": "github:lipp/node-jet"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "standard": "^8.0.0"
+  }
+}
